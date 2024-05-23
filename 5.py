@@ -21,4 +21,4 @@ ps = list(primes(N))
 print(ps)
 ps = [pow(x, N) for x in ps]
 print(ps)
-print(reduce(int.__mul__, ps, 1))
+print(reduce(int.__mul__, ps))
